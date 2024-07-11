@@ -1,2 +1,3 @@
 # Personal-Web-Page
 Creating my personal web page following Odin Project
+The aim of this website is to incoproate my own work to create a wbesite as opposed to relying on a step by step guide and having it look like everyone else's that's gone through Odin project. I want this to reflect the knowledge and understanding I have gained vs using tools like Freecodecamp which whilst it can provide a basic knolwedge, forces you to create the same projects as everyone else. 
