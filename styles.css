@@ -1,7 +1,36 @@
-.body-background, .footer-background {
+.whole-page, .footer-background {
     background-color: #120898;
     color: rgba( 180, 180, 180, 1);
+    max-width: auto;
 }
-h1, .tagline {
+h1, .tagline, h2, h3, .tht {
     text-align: center;
+}
+.list-organisation {
+    padding-left: 25pc;
+    margin-bottom: 20px;
+}
+.Basketball, .tht {
+    color: orange;
+}
+.Cricket {
+    color: red;
+}
+.football, #emphasis {
+    color: black;
+    outline-color: white;
+    text-shadow: 0px 0px 4px white;
+}
+.tht {
+    font-style: italic;
+    font-size: small;
+}
+a {
+    color: gold;
+}
+a:hover {
+    color:rgba(237, 249, 147, 1);
+}
+a:visited {
+    color:pink
 }
