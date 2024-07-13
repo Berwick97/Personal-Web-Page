@@ -1,0 +1,7 @@
+.body-background, .footer-background {
+    background-color: #120898;
+    color: rgba( 180, 180, 180, 1);
+}
+h1, .tagline {
+    text-align: center;
+}
