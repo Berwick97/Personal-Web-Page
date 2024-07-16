@@ -1,7 +1,7 @@
 .whole-page, .footer-background {
     background-color: #07070e;
     color: rgba( 180, 180, 180, 1);
-    max-width: auto;
+    max-width: 100pc;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
