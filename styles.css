@@ -8,12 +8,15 @@
 h1, .tagline, h2, h3, .tht, .fb-link {
     text-align: center;
 }
+.fb-link {
+    padding-top: 30px;
+}
 a {
     display: block;
     text-align: center;
   }
 .list-organisation {
-    padding-left: 42pc;
+    padding-left: 40pc;
     margin-bottom: 20px;
     
 }
@@ -23,14 +26,25 @@ a {
 .Cricket {
     color: red;
 }
-.football, .football-list, #emphasis {
+.football, .football-list, #emphasis, .link-spot {
     color: purple;   
 }
 .football-list {
     display: flex;
+    margin-left: 43pc;
 }
 .border-list {
-    margin: 1em;
+    margin-left: 3em;
+}
+.link-spot {
+    margin-left: 51pc;
+    padding-top: -5px;
+    padding-bottom: 30px;
+    display: block;
+}
+h3, h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .tht {
     font-style: italic;
@@ -38,10 +52,23 @@ a {
 }
 a {
     color: gold;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 a:hover {
     color:rgba(237, 249, 147, 1);
 }
 a:visited {
     color:pink
+}
+.fb-photo{
+    border: white, 1px, solid;
+}
+footer {
+    border-style: dashed;
+    border-top-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
