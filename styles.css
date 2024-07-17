@@ -64,6 +64,7 @@ a:visited {
 }
 .fb-photo{
     border: white, 1px, solid;
+    margin-bottom: 15px;
 }
 footer {
     border-style: dashed;
