@@ -11,10 +11,6 @@ h1, .tagline, h2, h3, .tht, .fb-link {
 .fb-link {
     padding-top: 30px;
 }
-a {
-    display: block;
-    text-align: center;
-  }
 .list-organisation {
     padding-left: 40pc;
     margin-bottom: 20px;
@@ -26,7 +22,7 @@ a {
 .Cricket {
     color: red;
 }
-.football, .football-list, #emphasis, .link-spot {
+.football, .football-list, #emphasis, .link-spot, .emphasis {
     color: purple;   
 }
 .football-list {
@@ -35,6 +31,9 @@ a {
 }
 .border-list {
     margin-left: 3em;
+}
+.emphasis {
+    font-style: italic;
 }
 .link-spot {
     margin-left: 51pc;
