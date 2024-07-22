@@ -27,18 +27,18 @@ h1, .tagline, h2, h3, .tht, .fb-link {
 }
 .football-list {
     display: flex;
-    margin-left: 43pc;
-}
-.border-list {
-    margin-left: 3em;
+    flex: 1;
+    margin-left: 32pc;
+    margin-right: 34pc;
+    justify-content: space-around;
 }
 .emphasis {
     font-style: italic;
 }
 .link-spot {
     margin-left: 51pc;
-    padding-top: -5px;
-    padding-bottom: 30px;
+    margin-top: -5px;
+    margin-bottom: 30px;
     display: block;
 }
 h3, h2 {
