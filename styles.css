@@ -72,3 +72,22 @@ footer {
     border-left: none;
     border-right: none;
 }
+.box-practice {
+    display: flex;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-color: white;
+    background-color: green;
+    flex: 1;
+    height: 60px;
+}
+.corsa-1, .corsa-2, .golf {
+    display: flex;
+    border-style: solid;
+    border-color: blue;
+    background-color: green;
+    height: 50px;
+    justify-content: center;
+    flex: 1;
+    align-items: flex-end;
+}
