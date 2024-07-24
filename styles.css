@@ -5,6 +5,31 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
+.header-page {
+    border-color: gold;
+    border-style: solid;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-page div{
+    height: 40px;
+    border: solid, blue; 
+    border-radius: 1px;
+    width: 60pc;
+}
+.about-link {
+    display: flex;
+    border-style: solid;
+    border-color: gold;
+    background-color: grey;
+    height: 50px;
+    justify-content: left;
+    align-items: flex-start;
+}
+.rest-header {
+    display: flex;
+}
 h1, .tagline, h2, h3, .tht, .fb-link {
     text-align: center;
 }
@@ -76,18 +101,27 @@ footer {
     display: flex;
     margin-bottom: 40px;
     border-style: solid;
-    border-color: white;
-    background-color: green;
+    border-color:grey;
+    background-color: white;
     flex: 1;
-    height: 60px;
+    height: 50px;
 }
 .corsa-1, .corsa-2, .golf {
     display: flex;
     border-style: solid;
-    border-color: blue;
-    background-color: green;
+    border-color: gold;
+    background-color: grey;
     height: 50px;
     justify-content: center;
     flex: 1;
     align-items: flex-end;
+}
+span {
+    font-style: italic;
+}
+.car-header{
+    display: flex;
+    margin-left: 30pc;
+    margin-right: 30pc;
+    line-height: 35px
 }
