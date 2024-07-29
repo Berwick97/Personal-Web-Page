@@ -96,6 +96,8 @@ footer {
     border-bottom: none;
     border-left: none;
     border-right: none;
+    margin-top: auto;
+    padding: 20px;
 }
 .box-practice {
     display: flex;
@@ -114,7 +116,7 @@ footer {
     height: 50px;
     justify-content: center;
     flex: 1;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 span {
     font-style: italic;
@@ -124,4 +126,8 @@ span {
     margin-left: 30pc;
     margin-right: 30pc;
     line-height: 35px
+}
+.corsa-1-pic, .corsa-2-pic, .golf-pic {
+    display:block;
+    height: 100px;
 }
