@@ -101,12 +101,12 @@ footer {
 }
 .box-practice {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     border-style: solid;
     border-color:grey;
     background-color: white;
     flex: 1;
-    height: 50px;
+    height: 200px;
 }
 .corsa-1, .corsa-2, .golf {
     display: flex;
@@ -117,15 +117,18 @@ footer {
     justify-content: center;
     flex: 1;
     align-items: flex-start;
+    height: 200px;
 }
 span {
     font-style: italic;
 }
 .car-header{
     display: flex;
-    margin-left: 30pc;
-    margin-right: 30pc;
-    line-height: 35px
+    line-height: 35px;
+    width: 100pc;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10pc;
 }
 .corsa-1-pic, .corsa-2-pic, .golf-pic {
     display:block;
