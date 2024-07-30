@@ -30,7 +30,7 @@
 .rest-header {
     display: flex;
 }
-h1, .tagline, h2, h3, .tht, .fb-link {
+h1, .tagline, h2, h3, .tht, .fb-link, h4 {
     text-align: center;
 }
 .fb-link {
@@ -114,10 +114,11 @@ footer {
     border-color: gold;
     background-color: grey;
     height: 50px;
-    justify-content: center;
     flex: 1;
-    align-items: flex-start;
-    height: 200px;
+    height: 300px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 span {
     font-style: italic;
@@ -126,11 +127,14 @@ span {
     display: flex;
     line-height: 35px;
     width: 100pc;
-    justify-content: center;
-    text-align: center;
     padding-left: 10pc;
 }
 .corsa-1-pic, .corsa-2-pic, .golf-pic {
-    display:block;
-    height: 100px;
+    display:flex;
+    height: 200px;
+    padding-top: 10px;
+}
+h4 {
+    display: flex;
+    margin-top: 5px;
 }
