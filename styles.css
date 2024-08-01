@@ -101,24 +101,21 @@ footer {
 }
 .box-practice {
     display: flex;
-    margin-bottom: 100px;
     border-style: solid;
     border-color:grey;
     background-color: white;
     flex: 1;
-    height: 200px;
+    height: 400px;
 }
 .corsa-1, .corsa-2, .golf {
     display: flex;
-    border-style: solid;
-    border-color: gold;
     background-color: grey;
-    height: 50px;
     flex: 1;
-    height: 300px;
+    height: 400px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 span {
     font-style: italic;
@@ -137,4 +134,45 @@ span {
 h4 {
     display: flex;
     margin-top: 5px;
+}
+.dream-cars {
+    display: flex;
+    margin-bottom: 100px;
+    height: 350px;
+    justify-content: center;
+    flex: 0 0 33pc;
+}
+.dodge, .modern-dream {
+    display: flex;
+    background-color: grey;
+    flex: 0 0 33pc;
+    height: 350px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.dream-car-header {
+        display: flex;
+        background-color: grey;
+        height: 80px;
+        width: 68.5pc;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: -20px;
+        margin-top: -30px;
+}
+.dodge-pic, .Lambo-pic {
+    display:flex;
+    height: 200px;
+    padding-top: 10px;
+}
+.Lambo-text {
+    padding-top: 30px;
+}
+.loml {
+    margin-top: 20px;
 }
