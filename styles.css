@@ -10,22 +10,22 @@
     border-style: solid;
     border-radius: 4px;
     display: flex;
-    justify-content: space-between;
+    width: 80pc;
+    margin: auto;
 }
 .header-page div{
     height: 40px;
-    border: solid, blue; 
+    border: solid, green; 
     border-radius: 1px;
-    width: 60pc;
+    gap: 80px;
 }
 .about-link {
-    display: flex;
     border-style: solid;
     border-color: gold;
     background-color: grey;
-    height: 50px;
-    justify-content: left;
-    align-items: flex-start;
+    height: 40px;
+    margin-right: auto;
+    align-items: center;
 }
 .rest-header {
     display: flex;
