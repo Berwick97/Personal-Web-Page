@@ -53,18 +53,17 @@ h1, .tagline, h2, h3, .tht, .fb-link, h4 {
 .football-list {
     display: flex;
     flex: 1;
-    margin-left: 32pc;
-    margin-right: 34pc;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
 }
 .emphasis {
     font-style: italic;
 }
 .link-spot {
-    margin-left: 51pc;
     margin-top: -5px;
     margin-bottom: 30px;
     display: block;
+    text-align: center;
 }
 h3, h2 {
     padding-top: 15px;
