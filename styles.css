@@ -32,6 +32,13 @@
 }
 h1, .tagline, h2, h3, .tht, .fb-link, h4 {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.italics {
+    font-style: italic;
+    white-space: pre;
 }
 .fb-link {
     padding-top: 30px;
